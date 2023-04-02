@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
     --background-page-color: #e5e5e5;
     --brand-color-blue: #2196f3;
@@ -42,7 +48,7 @@ body {
 
 .container-section2 {
     align-items: center;
-   
+    flex-wrap: wrap;
 }
 
 .menu {
@@ -164,6 +170,7 @@ body {
     display: inline-block;
     width: 117px;
     height: 30px;
+    border-radius: 4px;
 
 }
 
