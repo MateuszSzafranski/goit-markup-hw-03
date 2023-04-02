@@ -40,11 +40,18 @@ body {
     padding-top: 200px;
 }
 
+.container-section2 {
+    align-items: center;
+   
+}
+
 .menu {
     background-color: var(--brand-color-white);
     width: 1600px;
     height: 80px;
-    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .border {
