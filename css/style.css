@@ -49,6 +49,17 @@ body {
 .container-section2 {
     align-items: center;
     flex-wrap: wrap;
+    list-style: none;
+}
+
+.container-section3 {
+    list-style: none;
+    display: inline;
+    flex-direction: row;
+}
+
+.container-section4 {
+    list-style: none;
 }
 
 .menu {
@@ -133,6 +144,7 @@ body {
 .link-navigation {
     display: flex;
     margin: 32px 46px 32px 0px;
+    list-style: none;
 }
 
 .link-nav {
