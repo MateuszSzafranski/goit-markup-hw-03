@@ -5,30 +5,17 @@
     --brand-color-black: #212121;
     --brand-color-grey: #f5f4fa;
     --brand-color-white: #ffffff;
+    --brand-color-text-grey: #757575;
 }
 
 body {
     font-family: "Roboto", sans-serif;
     color: var(--brand-color-black);
     background-color: var(--background-page-color);
-    width: 1600px;
-    margin: 0 auto;
-}
-
-.container-header {
-    box-sizing: border-box;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
 }
 
 .menu {
-    background-color: #FFFFFF;
-    display: flex;
-    align-items: center;
+    background-color: var(--brand-color-white);
 }
 
 .menu-logo {
@@ -36,9 +23,10 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--brand-color-blue);
+    
 }
 
 .menu-logo-top {
@@ -46,9 +34,9 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: var(--brand-color-black);
 }
 
 .menu-logo-bottom {
@@ -56,75 +44,58 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
-
-.contact-header {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin: 0;
-    padding: 32px 0px 32px 50px;
-    justify-content: flex-end;
+    color: var(--brand-color-white);
 }
 
 .contact {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.02em;
-    color: #757575;
-    display: flex;
-    align-self: flex-end;
-    margin: 50px;
+    color: var(--brand-color-text-grey);
 }
 
 .contact-nav {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--brand-color-white);
 }
 
 .contact:hover,
 .contact:focus {
-    color: #2196F3;
+    color: var(--brand-color-blue);
 }
 
 .navigation {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    display: flex;
-    padding: 25px;
 }
 
 .link-nav {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
-    display: flex;
-    padding: 32px 46px 32px 0px;
+    color: var(--brand-color-black);
 }
 
 .link-nav:hover,
 .link-nav:focus {
-    color: #2196F3;
+    color: var(--brand-color-blue);
 }
 
 .text-dec {
     text-decoration: none;
-    display: flex;
 }
 
 .pointer {
@@ -133,12 +104,12 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,62;
+    line-height: 1.62;
     text-align: center;
     text-decoration: none;
     letter-spacing: 0.03em;
-    color: #212121;
-    background-color: #F5F4FA;
+    color: var(--brand-color-black);
+    background-color: var(--brand-color-grey);
     border: none;
     display: inline-block;
     width: 117px;
@@ -147,22 +118,22 @@ body {
 }
 
 .pointer:focus {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--brand-color-white);
+    background-color: var(--brand-color-blue);
     }
 
 .pointer2 {
     font-family: 'Roboto';
     cursor: pointer;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 16px;
-    line-height: 1,87;
+    line-height: 1.87;
     text-align: center;
     text-decoration: none;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
-    background-color:#2196f3;
+    color: var(--brand-color-white);
+    background-color: var(--brand-color-blue);
     border: none;
     display: inline-block;
     width: 200px;
@@ -170,60 +141,87 @@ body {
 }
 
 .pointer2:focus {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--brand-color-white);
+    background-color: var(--brand-color-blue);
 }
 
 .button-main:hover
  {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--brand-color-white);
+    background-color: var(--brand-color-blue);
 }
 
 
 .button-main2:hover {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--brand-color-white);
+    background-color: var(--brand-color-blue);
 }
 
 .heading1 {
     font-style: normal;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--brand-color-white);
 }
 
 .heading2 {
     font-style: normal;
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
 .heading3 {
     font-style: normal;
-    font-size: 16px;
-    line-height: 1,14;
+    font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.06em;
+}
+
+.heading4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--brand-color-black);
 }
 
 .text {
     font-style: normal;
-    font-size: 14px;
-    line-height: 1,71;
+    font-size: 16px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--brand-color-text-grey);
+}
+
+.text2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18x;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-text-grey);
+}
+
+.text3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-text-grey);
 }
 
 .background {
-    background: #2F303A;
+    background-color: var(--brand-color-background);
 }
 
 .footer {
-    background-color: #2F303A;
+    background-color: var(--brand-color-background);
 }
 
