@@ -88,7 +88,7 @@ body {
 
 .section-2 {
     background-color: var(--brand-color-white);
-    padding-top: 94px;
+    padding-top: 94px 94px;
 }
 
 .section-3 {
@@ -330,11 +330,6 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--brand-color-text-grey);
-    
-        width: 270px;
-        height: 75px;
-        left: 1115px;
-        top: 800px;
 }
 
 .text2 {
