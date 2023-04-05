@@ -281,7 +281,7 @@ body {
     max-width: 696px;
     height: 120px;
     left: 452px;
-    top: 280px;
+    top: 280px;      
 }
 
 .heading2 {
@@ -290,7 +290,7 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    padding: 50px;
+    margin: 94px 50px;   
 }
 
 .heading3 {
