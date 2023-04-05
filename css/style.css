@@ -60,12 +60,14 @@ body {
     list-style: none;
     display: flex;
     flex-direction: row;
+    gap: 30px;
 }
 
 .container-section4 {
     list-style: none;
     display: flex;
     align-items: center;
+    gap: 30px;
 }
 
 .container-section2-portfolio {
@@ -73,6 +75,8 @@ body {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
     border: 1px solid #EEEEEE;
 }
 
