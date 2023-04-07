@@ -74,6 +74,7 @@ body {
     display: flex;
     align-items: center;
     gap: 30px;
+    
 }
 
 .container-section2-portfolio {
@@ -116,12 +117,11 @@ body {
 
 .section-1-portfolio {
     background-color: var(--brand-color-white);
-    padding: 94px 94px;
+    padding: 94px 0px 50px 0px;
 }
 
 .section-2-portfolio {
     background-color: var(--brand-color-white);
-    padding: 94px 94px;
 }
 
 .menu {
@@ -165,7 +165,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--brand-color-white);
-
+    margin-left: 215px;
 }
 
 .contact {
@@ -313,8 +313,8 @@ body {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
-    margin: 94px 50px;   
+    letter-spacing: 0.03em;  
+    padding-bottom: 50px; 
 }
 
 .heading3 {
@@ -332,6 +332,25 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--brand-color-black);
+}
+
+.card-heading {
+    background-color: var(--brand-color-white);
+    text-align: center;
+}
+
+.card-heading-portfolio {
+    background-color: var(--brand-color-white);
+    padding: 20px 24px 4px 24px;
+    border: 1px solid #EEEEEE;   
+}
+
+.img-no-gap {
+    display: block;
+}
+
+.img-portfolio-no-gap {
+    display: block;
 }
 
 .text {
@@ -363,9 +382,14 @@ body {
 .footer {
     background-color: var(--brand-color-background);
     height: 252px;
-}
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    }
+    
 
 .footer-container {
     list-style: none;
+    margin-left: 215px;
+    padding-top: 20px;
 }
-
