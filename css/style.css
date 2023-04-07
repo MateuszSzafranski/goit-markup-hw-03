@@ -99,11 +99,13 @@ body {
 .section-2 {
     background-color: var(--brand-color-white);
     padding-top: 94px 94px;
+    height: 242px;
 }
 
 .section-3 {
     background-color: var(--brand-color-white);
     padding: 94px 94px;
+    height: 527px;
 }
 
 .section-4 {
