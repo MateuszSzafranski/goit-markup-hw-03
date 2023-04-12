@@ -93,25 +93,21 @@ body {
 
 .section-1 {
     background-color: var(--brand-color-background);
-    height: 600px;
 }
 
 .section-2 {
     background-color: var(--brand-color-white);
     padding-top: 94px;
     padding-bottom: 94px;
-    height: 242px;
 }
 
 .section-3 {
     background-color: var(--brand-color-white);
     padding: 94px 94px;
-    height: 527px;
 }
 
 .section-4 {
     background-color: var(--brand-color-grey);
-    height: 648px;
     padding: 94px 94px;
 }
 
@@ -386,11 +382,10 @@ body {
 
 .footer {
     background-color: var(--brand-color-background);
-    height: 252px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    }
+}
     
 
 .footer-container {
