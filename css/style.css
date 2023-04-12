@@ -59,7 +59,9 @@ body {
 }
 
 .item {
-    flex-basis: calc((100% - 30px) / 4);
+    padding-top: 94px;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 20px) / 4);
 }
 
 .container-section3 {
