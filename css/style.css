@@ -65,6 +65,7 @@ body {
 .container-section3 {
     list-style: none;
     display: flex;
+    justify-content: center;
     flex-direction: row;
     gap: 30px;
 }
@@ -72,9 +73,9 @@ body {
 .container-section4 {
     list-style: none;
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 30px;
-    
+    gap: 30px; 
 }
 
 .container-section2-portfolio {
