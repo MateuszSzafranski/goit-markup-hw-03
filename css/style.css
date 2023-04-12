@@ -170,7 +170,6 @@ body {
     line-height: 1.71;
     letter-spacing: 0.02em;
     color: var(--brand-color-text-grey);
-    margin-right: 50px;
 }
 
 .contact-nav {
@@ -310,15 +309,15 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;  
-    padding-bottom: 50px; 
+    margin-bottom: 50px; 
 }
 
 .heading3 {
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.06em;
-    padding: 94px 0px 10px 0px;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 
 .heading4 {
