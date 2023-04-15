@@ -181,6 +181,10 @@ body {
     margin-right: 50px;
 }
 
+.contact-2{
+    margin-right: 0px;
+}
+
 .contact-nav {
     font-style: normal;
     font-weight: 500;
@@ -202,7 +206,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     display: flex;
-    margin-right: 325px;
+    margin-right: 371px;
 }
 
 .link-navigation {
@@ -225,7 +229,7 @@ body {
     color: var(--brand-color-blue);
 }
 
-.link-nav-2{
+.link-nav-2 {
     margin-right: 0px;
 }
 
